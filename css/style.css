@@ -121,3 +121,10 @@ img {
   color: aliceblue;
   text-decoration: none;
 }
+
+.text-footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-inline: 1, 5rem;
+  color: #ffffff;
+}
