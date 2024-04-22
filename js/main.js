@@ -105,12 +105,36 @@ const agregarAlCarrito = (producto) => {
     carrito.push({ ...producto, cantidad: 1 });
   }
   actualizarCarrito();
+
+  Toastify({
+    text: "Producto agregado al carrito!",
+    duration: 2500,
+    close: true,
+    gravity: "top",
+    position: "right",
+    style: {
+      background: "linear-gradient(to right, #ffbe5cc4, #ffd79cc4)",
+    },
+    onClick: function(){}
+  }).showToast();
 };
 
 const borrarDelCarrito = (producto) => {
   const prodIndex = carrito.findIndex((item) => item.id === producto.id);
   carrito.splice(prodIndex, 1);
   actualizarCarrito();
+  
+  Toastify({
+    text: "Producto eliminado del carrito!",
+    duration: 2500,
+    close: true,
+    gravity: "bottom",
+    position: "right",
+    style: {
+      background: "linear-gradient(to right, #ffbe5cc4, #ffd79cc4)",
+    },
+    onClick: function(){}
+  }).showToast();
 };
 
 const actualizarTotal = () => {
