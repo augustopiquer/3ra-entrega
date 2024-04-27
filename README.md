@@ -1,0 +1,1 @@
+Veo que en el ultimo git push realizado, no aparecen los productos rescatados en el fetch del productos.json, pero en mi live server si. Pese a verificar y dar por hecho q está bien el Link, no logro comprender por qué no aparecen los productos en GitHub.
