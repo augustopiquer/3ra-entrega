@@ -1,0 +1,38 @@
+[
+    {
+      "id": "MocaBlend",
+      "titulo": "Café Calvi Moca Blend",
+      "precio": 10950,
+      "img": "./assets/cafe1.webp"
+    },
+    {
+      "id": "ColombiaSupremo",
+      "titulo": "Café Calvi Colombia Supremo",
+      "precio": 13700,
+      "img": "./assets/cafe2.webp"
+    },
+    {
+      "id": "Brasil27",
+      "titulo": "Café Calvi Brasil 27",
+      "precio": 8300,
+      "img": "./assets/cafe3.webp"
+    },
+    {
+      "id": "EtiopiaKaffa",
+      "titulo": "Café Calvi Etiopía Kaffa",
+      "precio": 17250,
+      "img": "./assets/cafe6.webp"
+    },
+    {
+      "id": "DarkRoast",
+      "titulo": "Café Calvi Dark Roast",
+      "precio": 15200,
+      "img": "./assets/cafe4.webp"
+    },
+    {
+      "id": "Santos",
+      "titulo": "Café Calvi Santos",
+      "precio": 9500,
+      "img": "./assets/cafe5.webp"
+    }
+  ]
