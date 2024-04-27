@@ -179,3 +179,4 @@ vaciar.addEventListener("click", () => {
 });
 
 actualizarCarrito();
+
